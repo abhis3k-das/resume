@@ -1,3 +1,105 @@
-h1{
-    color:red;
+h1,h2,p{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 4rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.container{
+    border:1px solid black;
+    min-height: 100vh;
+    width: 80%;
+    padding: 0 2rem;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.header{
+    text-align: center;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid black;
+}
+.header h1,.header h2{
+    font-family: 'Cormorant Infant', serif;
+    letter-spacing: 1px;
+}
+
+.header h1{
+    margin: 0;
+    padding: 0;
+    margin-top:1rem;
+}
+.header h2{
+    margin: 0;
+    padding: 0;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* .icon.icon-phone, */
+.icon.icon-mail,
+.icon.icon-linked-in{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 5px;
+    transform: translateY(2px);
+}
+.icon+a{
+    color: #000;
+}
+.mail{
+    transform: translateX(20px);
+}
+
+.experience h1,
+.projects h1,
+.education h1{
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.company,.institute{
+    display: flex;
+    justify-content: space-between;
+}
+.company h2{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0;
+    padding: 0;
+    margin: 0;
+}
+.company h2 + span{
+    font-size: 18px;
+}
+.company-name-role{
+    display: flex;
+}
+.company .date,.institute-location .date{
+    font-size: 15px;
+}
+.date-location,.institute-location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.date-location p{
+    font-size: 14px;
+}
+.project-title{
+    display: flex;
+    align-items: baseline;
+}
+.project-title h2{
+    font-size: 18px;
+    margin-right: 0.5rem;
+}
+.institute h2{
+    font-size: 18px;
 }
