@@ -6,10 +6,10 @@ body {
 }
 
 .resume {
-  width: 900px;
-  margin: 20px auto;          /* was 30px */
+  max-width: 850px;   /* controls width */
+  margin: 30px auto;  /* centers horizontally */
+  padding: 30px 40px;
   background: #fff;
-  padding: 24px 34px;         /* was 30px 40px */
 }
 
 
